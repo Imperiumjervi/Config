@@ -3,7 +3,7 @@
 echo "Instalando configuracion de neovim"
 
 #Destino
-NVIM_CONFIG=$HOOME/.config/nvim 
+NVIM_CONFIG=$HOME/.config/nvim 
 
 if [ -d "$NVIM_CONFIG"]; then
   BACKUP_DIR="$HOME/.config/nvim-backup-$(date +%Y%m%d%H%M%S)"
