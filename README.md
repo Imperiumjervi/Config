@@ -45,5 +45,5 @@ So, this config has good plugins, some of them are:
 12. Which key
 13. Indent 
 14. Autopairs
-15. Plugins to work with githu
+15. Plugins to work with Github
 16. Mason (To install your oww lsp servers)
