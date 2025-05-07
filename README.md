@@ -21,7 +21,7 @@ To open the nvimtree just do <Crtl> + n
 To open the telescope just do <Crtl> + t
 
 
-So, this config has good plugins, which are:
+So, this config has good plugins, some of them are:
 1. LazyVim (powered by itself)
 2. autocompletion
 3. Copilot
