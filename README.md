@@ -26,11 +26,10 @@ npm install -g pyright typescript typescript-language-server
 ```
 
 ## Description
-This Neovim's config is powered by LazyVim, i did this with good plugins 
-and i made some commands to work with basicly cpp projects, but you can 
-make your own commands.
+This Neovim config is powered by LazyVim, and I’ve curated a set of excellent plugins to enhance the development experience. 
+Some custom commands are set up to work with C++ projects, but you can easily create your own commands.
 
-## Things to know:
+## Features:
 The master in this case is space to do keymaps 
 To open the nvimtree just do <Crtl> + n 
 To open the telescope just do <Crtl> + t
@@ -39,17 +38,17 @@ To open the telescope just do <Crtl> + t
 So, this config has good plugins, some of them are:
 1. LazyVim (powered by itself)
 2. autocompletion
-3. Copilot
-4. Colorscheme
-5. Dashboard 
+3. Copilot (Github Copilot integration)
+4. Colorscheme (Dracula theme)
+5. Dashboard (custom startup screen)
 6. Basic formatting 
 7. Lsp (actually only work with java, javascript, python, c, cpp and lua)
 8. Navigation with nvimtree and telescope
-9. Statusline
-10. Syntax
-11. Float terminal
-12. Which key
-13. Indent 
-14. Autopairs
-15. Plugins to work with Github
+9. Statusline (lualine)
+10. Syntax Highlighting (nvim-treesitter)
+11. Floating terminal (toggleterm)
+12. Which key (to see the keymaps)
+13. Indentation guides (indent-blankline)
+14. Autopairs (Automatic closing of brackets and quotes)
+15. Plugins to work with Github (gitsigns, vim_fugitive)
 16. Mason (To install your oww lsp servers)
