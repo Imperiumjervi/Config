@@ -52,3 +52,18 @@ So, this config has good plugins, some of them are:
 14. Autopairs (Automatic closing of brackets and quotes)
 15. Plugins to work with Github (gitsigns, vim_fugitive)
 16. Mason (To install your oww lsp servers)
+
+
+## Custom commands:
+1. :NewProject <name> - Create a new C++ poo project 
+    with a directory structure and a main.cpp file.
+    And basic makefile.
+
+2. :BuildProject - Build the current C++ project.
+    It will look for the Makefile in the current directory and run make.
+
+3. :CreateWorkspace 
+    - Create a new workspace for the current C++ project.
+    It will create a .vscode directory with a settings.json file.
+    And a launch.json file to run the project in debug mode to work 
+    on vscode and codespace.
