@@ -19,6 +19,11 @@ chmod +x install.sh
 ./install.sh
 ```
 
+## Dependencies
+Dependencies for both distros (debian based and arch based):
+```bash
+npm install -g pyright typescript typescript-language-server 
+```
 
 ## Description
 This Neovim's config is powered by LazyVim, i did this with good plugins 
