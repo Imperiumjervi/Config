@@ -3,11 +3,20 @@ for ubuntu or debian based systems:
 ```bash
 sudo apt update
 sudo apt install neovim git curl wget gcc unzip
+git clone https://github.com/Imperiumjervi/Config.git
+cd Config
+chmod +x install.sh
+./install.sh
 ```
+
 for arch based systems:
 ```bash
 sudo pacman -Syu
 sudo pacman -S neovim git curl wget gcc unzip
+git clone https://github.com/Imperiumjervi/Config.git
+cd Config
+chmod +x install.sh
+./install.sh
 ```
 
 ## Description
