@@ -2,7 +2,7 @@
 for ubuntu or debian based systems:
 ```bash
 sudo apt update
-sudo apt install neovim git curl wget gcc unzip
+sudo apt install neovim git curl wget gcc unzip clangd npm
 git clone https://github.com/Imperiumjervi/Config.git
 cd Config
 chmod +x install.sh
@@ -12,12 +12,13 @@ chmod +x install.sh
 for arch based systems:
 ```bash
 sudo pacman -Syu
-sudo pacman -S neovim git curl wget gcc unzip
+sudo pacman -S neovim git curl wget gcc unzip clang npm
 git clone https://github.com/Imperiumjervi/Config.git
 cd Config
 chmod +x install.sh
 ./install.sh
 ```
+
 
 ## Description
 This Neovim's config is powered by LazyVim, i did this with good plugins 
