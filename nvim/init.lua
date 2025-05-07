@@ -18,6 +18,7 @@ require("config.keymaps")
 require("config.autocmds")
 require("config.utils")
 require("config.create_workspace")
+require("config.git")
 
 
 -- 3. Finalmente inicializa Lazy.nvim
