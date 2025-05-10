@@ -88,7 +88,7 @@ public:
 ]])
 
   write_file(project .. "/src/clasepordefecto.cpp", [[
-#include "include/clasepordefecto.hpp"
+#include "../include/clasepordefecto.hpp"
 
 void ClasePorDefecto::saludar() {
     std::cout << "Hola desde ClasePorDefecto" << std::endl;

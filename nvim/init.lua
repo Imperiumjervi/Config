@@ -19,6 +19,7 @@ require("config.autocmds")
 require("config.utils")
 require("config.create_workspace")
 require("config.git")
+require("config.cmake")
 
 
 -- 3. Finalmente inicializa Lazy.nvim
