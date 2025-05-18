@@ -1,7 +1,7 @@
 local keymap = vim.keymap.set
 
 -- Navegación
-keymap("n", "<C-n>", ":NvimTreeToggle<CR>", { desc = "Toggle file explorer" })
+keymap("n", "<C-n>", ":Neotree toggle<CR>", { desc = "Toggle file explorer" })
 
 -- Diagnósticos
 keymap("n", "<leader>,", vim.diagnostic.open_float, { desc = "Mostrar errores" })

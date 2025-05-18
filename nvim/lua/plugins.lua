@@ -31,7 +31,7 @@ return {
 
   -- scrtip para reconozca java
   {
-	  "mfussenegger/nvim-jdtls",
+    "mfussenegger/nvim-jdtls",
   },
 
 
@@ -47,5 +47,12 @@ return {
       })
     end,
   },
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    dependencies = {
+      "MunifTanim/nui.nvim",
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons",
+    }
+  },
 }
-
