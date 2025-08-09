@@ -1,5 +1,0 @@
-vim.api.nvim_create_user_command("GitPushInitial", function()
-  vim.cmd("Git add .")
-  vim.cmd("Git commit -m 'Un commit sencillo '")
-  vim.cmd("Git push")
-end, {})
