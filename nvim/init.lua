@@ -28,16 +28,19 @@ require("lazy").setup("plugins", {
     -- Si quieres asegurarte que la UI se vea
     icons = {
       cmd = "⌘",
-      config = "🛠",
+      config = "config",
       event = "📅",
       ft = "📂",
       init = "⚙",
-      keys = "🗝",
+      keys = "keys ",
       plugin = "🔌",
       runtime = "💻",
       source = "📄",
-      start = "🚀",
+      start = "start",
       task = "📌",
     },
   }
 })
+
+
+

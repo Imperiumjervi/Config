@@ -8,8 +8,9 @@ return {
   -- Explorador de archivos (como VS Code)
   {
     "nvim-tree/nvim-tree.lua",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
+    dependencies = { "echasnovski/mini.icons" },
     config = function()
+      require("mini.icons").setup()
       require("nvim-tree").setup()
       vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>") -- Atajo: Ctrl + N
     end,
@@ -31,7 +32,7 @@ return {
 
   -- scrtip para reconozca java
   {
-    "mfussenegger/nvim-jdtls",
+    "mfussenegger/nvim-jdtls", ft = "java"
   },
 
 
@@ -52,7 +53,18 @@ return {
     dependencies = {
       "MunifTanim/nui.nvim",
       "nvim-lua/plenary.nvim",
-      "nvim-tree/nvim-web-devicons",
+"echasnovski/mini.icons"
     }
   },
+
+-- al principio o donde agrupes plugins
+{
+  "echasnovski/mini.icons",
+  version = false,
+  lazy = false,  -- lo cargamos al inicio para que esté disponible
+  config = function()
+    require("mini.icons").setup()
+  end,
+},
+
 }

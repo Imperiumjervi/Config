@@ -3,7 +3,7 @@ return {
     {
         "nvimdev/dashboard-nvim",
         event = "VimEnter",
-        dependencies = { "nvim-tree/nvim-web-devicons" },
+        dependencies = {  "echasnovski/mini.icons"},
         config = function()
             local db = require("dashboard")
             db.setup({
@@ -25,7 +25,7 @@ return {
                         " ██║ ╚████║ ╚████╔╝ ██║██║ ╚═╝ ██║",
                         " ╚═╝  ╚═══╝  ╚═══╝  ╚═╝╚═╝     ╚═╝",
                         "",
-                        "         🚀 Welcome to Neovim by Jeffer",
+                        "          Welcome to Neovim by Jeffer",
                     },
                     center = {
                         { icon = "📂 ", desc = "Explorar archivos", key = "e", action = "NvimTreeToggle" },
@@ -35,7 +35,7 @@ return {
                         { icon = "🚪  ", desc = "Salir", key = "q", action = "qa" },
                     },
                     footer = {
-                        "🦾 hecho con Neovim + Lazy",
+                        " hecho con Neovim + Lazy",
                     },
                 }
             })
